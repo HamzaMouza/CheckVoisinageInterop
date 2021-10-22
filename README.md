@@ -20,8 +20,9 @@ This application is designed to look great and to provide powerful functionality
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/twbs/bootstrap/archive/v5.1.3.zip)
-- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
+- Clone the repo:	`git clone https://github.com/HamzaMouza/CheckVoisinageInterop.git`
+- Using SSH:		`git@github.com:HamzaMouza/CheckVoisinageInterop.git`
+- With GitHub CLI:	`gh repo clone HamzaMouza/CheckVoisinageInterop`
 
 ## Status
 
