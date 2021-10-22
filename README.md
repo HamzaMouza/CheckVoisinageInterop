@@ -4,10 +4,6 @@ Check Voisinage Interop is an application that offer a set of easy communication
 It is everything you need to create an intervention: SAV, RACCORDEMENT and others.
 This application is designed to look great and to provide powerful functionality in any browser.
 
-[GitLab](http://gitlab.org) peut être utilisé en tant que [SAAS](https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service), ou être installé sur votre propre instance privée.
-
-> NB: les traductions FR des interfaces ne sont pas toujours complètes.
-
 ## Table of contents
 
 - [Quick start](#quick-start)
@@ -52,5 +48,5 @@ CHECKVOISINAGEINTEROP/
     ├── types
     ├── views
     ├── App.vue
-    ├── main.ts
+    └── main.ts
 ```
