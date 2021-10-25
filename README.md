@@ -79,16 +79,12 @@ On the other hand you find the BackEnd like that :
 │   └── Startup.cs
 │
 ├── CVI.DOMAIN/
-│   ├── assets
-│   └── main.ts
 │
 ├── CVI.INFRASTRUCTURE/
-│   ├── assets
-│   └── main.ts
+
 │
 └── CVI.Service/
-    ├── assets
-    └── main.ts
+
 ```
 
 
