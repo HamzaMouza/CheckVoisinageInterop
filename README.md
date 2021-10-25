@@ -68,6 +68,9 @@ On the other hand you find the BackEnd like that :
 │   ├── Properties/
 │   │   └── index.html
 │   ├── Controllers/
+│   │   ├── AdminController.cs
+│   │   ├── AuthentController.cs
+│   │   └── HomeController.cs
 │   ├── SendWork/
 │   ├── ViewModel/
 │   ├── WebLogFiles/
