@@ -134,5 +134,5 @@ By default the app will use a local SQL Data Base. for change the database conne
 
 ## Copyright and license
 
-Code and documentation copyright 2021 the DevFit Team. Code covred by SonarCube.
+Code and documentation copyright 2021 the FitDev Team. Code covred by SonarCube.
 
