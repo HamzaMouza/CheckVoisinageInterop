@@ -8,12 +8,8 @@ This application is designed to look great and to provide powerful functionality
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
-- [Documentation](#documentation)
-- [Community](#community)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Thanks](#thanks)
+- [Run FrontEnd](#run-front-end)
+- [Run BackEnd](#run-back-end)
 - [Copyright and license](#copyright-and-license)
 
 ## Quick start
@@ -86,5 +82,8 @@ On the other hand you find the BackEnd like that :
 
 ```
 
+## Run FrontEnd
+TO DO
 
-
+## Run BackEnd
+TO DO
