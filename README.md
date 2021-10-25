@@ -86,7 +86,7 @@ On the other hand you find the BackEnd like that :
 ## Profiles
 In this application there is 3 different profiles:
 -  `Administrateur` : He is the administrator of the app, the mot prowerful profile and he has all permissions and can visualise all interfaces.
--  `v`   : create, and select interventions, view historiers, Export Excel reports .
+-  `Consultation`   : create, and select interventions, view historiers, Export Excel reports.
 -  `Hotline` : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
 
 ## Run FrontEnd
@@ -112,8 +112,8 @@ Simply run it by:
 ```
 npm run serve
 ```
-the option `--open` is for open the interface in the browser once the project is ready.
-the option `-skip-plugins` for skipping some hard plugins.
+- the option `--open` is for open the interface in the browser once the project is ready.
+- the option `-skip-plugins` for skipping some hard plugins.
 
 For the build you can use:
 ```
