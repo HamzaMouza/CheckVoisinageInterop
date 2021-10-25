@@ -81,7 +81,6 @@ On the other hand you find the BackEnd like that :
 ├── CVI.DOMAIN/
 │
 ├── CVI.INFRASTRUCTURE/
-
 │
 └── CVI.Service/
 
