@@ -34,13 +34,13 @@ Several quick start options are available:
 Within the download you'll find the following directories and files. You'll see something like this:
 
 ```text
-CHECKVOISINAGEINTEROP/
+CHECKVOISINAGEINTEROPFIBRE/
 ├── CHECKVOISINAGEINTEROPFIBRE
-└── CHECKVOISINAGEINTEROPAPI/
+└── CHECKVOISINAGEINTEROPFIBREAPI/
 ```
-It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
+It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
 
-The globale vision of the FrontEnd is sort of that:
+The global vision of the FrontEnd is sort of that:
 
 ```text
 CHECKVOISINAGEINTEROPFIBRE/
@@ -60,7 +60,7 @@ CHECKVOISINAGEINTEROPFIBRE/
     └── main.ts
 ```
 
-On the other hand you find the BackEnd like that : 
+On the other hand, you'll find the BackEnd : 
 
 ```text
 ├── CVI.API/
@@ -87,7 +87,7 @@ On the other hand you find the BackEnd like that :
 
 ## Profiles
 In this application there is 3 different profiles:
--  `Administrateur` : He is the administrator of the app, the mot prowerful profile and he has all permissions and can visualise all interfaces.
+-  `Administrateur` : The administrator of the app, the most powerful profil and he has all permissions and can visualise all interfaces.
 -  `Consultation`   : create, and select interventions, view historiers, Export Excel reports.
 -  `Hotline` : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
 
