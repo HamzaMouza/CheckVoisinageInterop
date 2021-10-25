@@ -34,13 +34,13 @@ Several quick start options are available:
 Within the download you'll find the following directories and files. You'll see something like this:
 
 ```text
-CHECKVOISINAGEINTEROP/
+CHECKVOISINAGEINTEROPFIBRE/
 ├── CHECKVOISINAGEINTEROPFIBRE
-└── CHECKVOISINAGEINTEROPAPI/
+└── CHECKVOISINAGEINTEROPFIBREAPI/
 ```
-It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
+It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
 
-The globale vision of the FrontEnd is sort of that:
+The global vision of the FrontEnd is sort of that:
 
 ```text
 CHECKVOISINAGEINTEROPFIBRE/
@@ -87,12 +87,13 @@ On the other hand you find the BackEnd like that :
 
 ## Profiles
 In this application there is 3 different profiles:
--  `Administrateur` : He is the administrator of the app, the mot prowerful profile and he has all permissions and can visualise all interfaces.
--  `Consultation`   : create, and select interventions, view historiers, Export Excel reports.
--  `Hotline` : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
+-  `Administrateur` : The most upgraded profil,he has it all.
+-  `Consultation`   : create, and select interventions, view history,generate reports.
+-  `Hotline` : create, and select interventions, view histiry,.
 
 ## Run FrontEnd
-After you recover the project, for just one time, you need to install dependencies  
+After you recover the project, start by installing all dependencies for the first time.  
+For that you need to run
 ```
 npm install
 ```
@@ -134,5 +135,5 @@ By default the app will use a local SQL Data Base. for change the database conne
 
 ## Copyright and license
 
-Code and documentation copyright 2021 the FitDev Team. Code covred by SonarCube.
+Code and documentation are copyright to the FitDev Team. Code covred by SonarCube.
 
