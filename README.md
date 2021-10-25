@@ -8,8 +8,8 @@ This application is designed to look great and to provide powerful functionality
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [Run FrontEnd](#run-fron-end)
-- [Run BackEnd](#run-bac-end)
+- [Run Frontend](#run-fron-end)
+- [Run Backend](#run-bac-end)
 - [Copyright and license](#copyright-and-license)
 
 ## Quick start
@@ -23,7 +23,7 @@ Several quick start options are available:
 ## Status
 
 [![npm version](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue)](https://atmospherejs.com/twbs/bootstrap)
+[![Meteor cAtmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue)](https://atmospherejs.com/twbs/bootstrap)
 [![NuGet](https://img.shields.io/nuget/vpre/bootstrap)](https://www.nuget.org/packages/bootstrap/absoluteLatest)
 
 ## What's included
