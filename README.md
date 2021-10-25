@@ -125,5 +125,5 @@ vue-cli-service build -- --mode testing
 
 ## Run BackEnd
 Prerequired thing here is to have Sql Server installed in your host.
-By default the app will use a local SQL Data Base. for change the database connection go to `CVI.API/Properties/lunchSettings.json` and change the `connectionString`.
+By default the app will use a local SQL Data Base. for change the database connection go to `CVI.API/appsettings.json` and change the `connectionString`.
 
