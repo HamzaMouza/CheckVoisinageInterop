@@ -63,7 +63,7 @@ On the other hand you find the BackEnd like that :
 ```text
 ├── CVI.API/
 │   ├── Properties/
-│   │   └── index.html
+│   │   └── lunchSettings.json
 │   ├── Controllers/
 │   │   ├── AdminController.cs
 │   │   ├── AuthentController.cs
@@ -124,4 +124,6 @@ vue-cli-service build -- --mode testing
 
 
 ## Run BackEnd
-TO DO
+Prerequired thing here is to have Sql Server installed in your host.
+By default the app will use a local SQL Data Base. for change the database connection go to `CVI.API/Properties/lunchSettings.json` and change the `connectionString`.
+
