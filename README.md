@@ -85,9 +85,9 @@ On the other hand you find the BackEnd like that :
 
 ## Profiles
 In this application there is 3 different profiles:
-    - Administrator : the mot prowerful profile and he has all permissions and can visualise all interfaces.
-    -    : create, and select interventions, view historiers, Export Excel reports .
-    - Hotline : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
+-  Administrator : the mot prowerful profile and he has all permissions and can visualise all interfaces.
+-     : create, and select interventions, view historiers, Export Excel reports .
+-  Hotline : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
 
 ## Run FrontEnd
 After you recover the project, for just one time, you need to install dependencies  
