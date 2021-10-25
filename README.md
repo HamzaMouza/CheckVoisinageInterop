@@ -8,8 +8,8 @@ This application is designed to look great and to provide powerful functionality
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [Run FrontEnd](#run-front-end)
-- [Run BackEnd](#run-back-end)
+- [Run FrontEnd](#run-fron-end)
+- [Run BackEnd](#run-bac-end)
 - [Copyright and license](#copyright-and-license)
 
 ## Quick start
