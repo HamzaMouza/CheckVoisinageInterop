@@ -26,6 +26,8 @@ Several quick start options are available:
 [![npm version](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)
 [![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue)](https://atmospherejs.com/twbs/bootstrap)
 [![NuGet](https://img.shields.io/nuget/vpre/bootstrap)](https://www.nuget.org/packages/bootstrap/absoluteLatest)
+[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=SkxZcStBeExEdVJqQ2hWYnlWckpkNmNEY213SFp6WHFETWk2bGFuY3pCbz0tLXhqbHJsVlZhQnRBdEpod3NLSDMzaHc9PQ==--3d0b75245708616eb93113221beece33e680b229)](https://www.browserstack.com/automate/public-build/SkxZcStBeExEdVJqQ2hWYnlWckpkNmNEY213SFp6WHFETWk2bGFuY3pCbz0tLXhqbHJsVlZhQnRBdEpod3NLSDMzaHc9PQ==--3d0b75245708616eb93113221beece33e680b229)
+
 
 ## What's included
 
@@ -126,4 +128,11 @@ vue-cli-service build -- --mode testing
 ## Run BackEnd
 Prerequired thing here is to have Sql Server installed in your host.
 By default the app will use a local SQL Data Base. for change the database connection go to `CVI.API/appsettings.json` and change the `connectionString`.
+
+
+
+
+## Copyright and license
+
+Code and documentation copyright 2021 the DevFit Team. Code covred by SonarCube.
 
