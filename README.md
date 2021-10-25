@@ -32,22 +32,60 @@ Several quick start options are available:
 
 ## What's included
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing VueJs components. You'll see something like this:
+Within the download you'll find the following directories and files. You'll see something like this:
 
 ```text
 CHECKVOISINAGEINTEROP/
+├── CHECKVOISINAGEINTEROPFIBRE
+└── CHECKVOISINAGEINTEROPAPI/
+```
+It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
+
+The globale vision of the FrontEnd is sort of that:
+
+```text
+CHECKVOISINAGEINTEROPFIBRE/
 ├── public/
 │   ├── favicon.ico
-│   ├── index.html
+│   └── index.html
 └── src/
-    ├── assets
-    ├── components
-    ├── mixins
-    ├── router
-    ├── services
-    ├── store
-    ├── types
-    ├── views
-    ├── App.vue
+    ├── assets/
+    ├── components/
+    ├── mixins/
+    ├── router/
+    ├── services/
+    ├── store/
+    ├── types/
+    ├── views/
+    ├── App.vue/
     └── main.ts
 ```
+
+On the other hand you find the BackEnd like that : 
+
+├── CVI.API/
+│   ├── Properties/
+│   │   └── index.html
+│   ├── Controllers/
+│   ├── SendWork/
+│   ├── ViewModel/
+│   ├── WebLogFiles/
+│   ├── appsettings.json
+│   ├── Program.cs
+│   └── Startup.cs
+│
+├── CVI.DOMAIN/
+│   ├── assets
+│   └── main.ts
+│
+├── CVI.INFRASTRUCTURE/
+│   ├── assets
+│   └── main.ts
+│
+└── CVI.Service/
+    ├── assets
+    └── main.ts
+
+
+
+
