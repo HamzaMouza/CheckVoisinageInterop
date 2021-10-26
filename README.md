@@ -94,10 +94,11 @@ In this application there is 3 different profiles:
      | Consultation       |       --       |    r   |     r-w      | r-w   | r|
      |Hotline            |       --       |    -   |     r-w      | r-w   | r |
 
-| Format        | Syntax      | Example |
-| ------|-----|-----|
-| Italic  	| \*Text\* 	| *This is italic* 	|
-| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
+| Profile/Permissions        | Administration      | Export | Intervention | Photo | History |
+| ------|-----|-----|-----|-----|-----|
+| Administrateur  	| \*Text\* 	| *This is italic* 	|
+| Consultation  	| \*\*Bold\*\* 	| **This is bold** 	|
+| Hotline  	| \*\*Bold\*\* 	| **This is bold** 	|
 
 
 ## Run FrontEnd
