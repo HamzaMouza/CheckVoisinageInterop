@@ -96,9 +96,9 @@ In this application there is 3 different profiles:
 
 | Profile/Permissions        | Administration      | Export | Intervention | Photo | History |
 | ------|-----|-----|-----|-----|-----|
-| Administrateur  	| r-w 	| r 	|
-| Consultation  	| \*\*Bold\*\* 	| **This is bold** 	|
-| Hotline  	| \*\*Bold\*\* 	| **This is bold** 	|
+| Administrateur  	| r-w 	| r 	|r-w      | r-w   | r |
+| Consultation  	| --	| r 	|r-w      | r-w   | r |
+| Hotline  	| -- 	| - 	|r-w      | r-w   | r |
 
 
 ## Run FrontEnd
