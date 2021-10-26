@@ -94,6 +94,12 @@ In this application there is 3 different profiles:
      | Consultation       |       --       |    r   |     r-w      | r-w   | r|
      |Hotline            |       --       |    -   |     r-w      | r-w   | r |
 
+| Format        | Syntax      | Example |
+| ------|-----|-----|
+| Italic  	| \*Text\* 	| *This is italic* 	|
+| Bold  	| \*\*Bold\*\* 	| **This is bold** 	|
+
+
 ## Run FrontEnd
 After you recover the project, before the first run start by installing dependencies. 
 In terminal:  
