@@ -94,12 +94,12 @@ In this application there is 3 different profiles:
      Hotline            |       --       |  --    |     r-w      | r-w   | r
 
 ## Run FrontEnd
-After you recover the project, before the first run start by installing dependencies 
+After you recover the project, before the first run start by installing dependencies.In your terminal 
 ```
 npm install
 ```
 
-Here all the enviroement is ready you can run the appliacation:
+now that  is ready you can run the appliacation:
 ```
 vue-cli-service serve
 ```
