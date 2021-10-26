@@ -1,8 +1,15 @@
 # Check Voisinage Interop'fibre
 
-Check Voisinage Interop'fibre is an application that offer a set of easy communications between company operators about interventions.
-It is everything you need to create an intervention: SAV, RACCORDEMENT and others.
-This application is designed to look great and to provide powerful functionality in any browser.
+Check Voisinage Interop'fibre is an application aimed at referencing FTTx clients disconnected during the intervention of a technician on a PM
+
+This tool requires an access to a PM repository as well as to a system auditing the connection status of FTTx clients.
+Since docking to these two services is specific to each operator, it is not integrated into this solution.
+
+The steps imagined for this application are:
+1. Entering an intervention (requires a PM, and date and time of the start of the intervention)
+2. Query of  audit system as well as the connection status for the given PM
+3. summary of all disconnected clients and all customers having undergone disconnections / reconnections during the intervention
+
 
 ## Table of contents
 
