@@ -90,9 +90,9 @@ In this application there is 3 different profiles:
 
     Profile/Permissions | Administration | Export | Intervention | Photo | History
     
-   Administrateur     |       r-w      |  r-w   |     r-w      | r-w   | r
-   Consultation       |       --       |  r     |     r-w      | r-w   | r
-   Hotline            |       --       |  --    |     r-w      | r-w   | r 
+   Administrateur     |       r-w      |  r-w   |     r-w      | r-w   | r__
+   Consultation       |       --       |  r     |     r-w      | r-w   | r__
+   Hotline            |       --       |  --    |     r-w      | r-w   | r__ 
 
 ## Run FrontEnd
 After you recover the project, before the first run start by installing dependencies 
