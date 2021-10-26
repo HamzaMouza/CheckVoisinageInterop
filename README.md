@@ -102,17 +102,15 @@ npm install
 ```
 
 now that you have installed all the dependencies you can run the application:
-```
 Run by:
-
+```
 npm run serve
 ```
 or 
-
+```
 vue-cli-service serve
 ```
-
-Or you can use our predefined scripts (find them in package.json) 
+you can also use our predefined scripts (find them in package.json) 
 ```
 "scripts": {
     "serve": "vue-cli-service serve --open --skip-plugins @vue/cli-plugin-eslint",
@@ -120,16 +118,13 @@ Or you can use our predefined scripts (find them in package.json)
     ...
   }
 ```
-Simply run it by:
-```
-npm run serve
-```
+
 - the option `--open` is for open the interface in the browser once the project is ready.
 - the option `-skip-plugins` for skipping some hard plugins.
 
 For the build you can use:
 ```
-vue-cli-service build -- --mode testing
+npm run build -- --mode testing
 ```
 
 
