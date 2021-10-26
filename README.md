@@ -42,7 +42,7 @@ Within the download you'll find the following directories and files. You'll see 
 
 ```text
 CHECKVOISINAGEINTEROPFIBRE/
-├── CHECKVOISINAGEINTEROPFIBRE
+├── CHECKVOISINAGEINTEROPFIBRE/
 └── CHECKVOISINAGEINTEROPFIBREAPI/
 ```
 It is a web service achitecture project. Seperated into a BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and a FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
