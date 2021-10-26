@@ -142,12 +142,17 @@ npm run build -- --mode testing
 ## Run BackEnd
 prerequisites:
 - Sql Server installed in your host. By default the app will use a local SQL Data Base.
-- An integrated development environment (IDE) that supports C#
+- An integrated development environment (IDE) that supports C# (visual studio)
 - .net core framework version 3.1 
 - Entity framework Core version 5.0.2
 
 Run 
-To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
+In your visual studio : 
+- Set your CVI.API project as startup project
+- run the solution by pressing F5
+- On first lunch, a local database will be created and populated with seed data automatically.
+- -seed data are located in folder data under CVI.API project in seedData.sql file.   
+- To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
 
 
 
