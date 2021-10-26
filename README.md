@@ -151,7 +151,8 @@ In your visual studio :
 - Set your CVI.API project as startup project.
 - Run the solution by pressing F5.
 - On first lunch, a local database will be created and populated with seed data automatically.
-- Seed data are located in folder "Data" under "CVI.API" project in seedData.sql file.   
+- Seed data are located in folder "Data" under "CVI.API" project in seedData.sql file. 
+- Static notification objects were added in  DataBenchAlarmsNotifications() method in InitializeDatabase.cs file under "CVI.Infrastructure" project.This data simulates the audit system response.       
 - To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
 
 
