@@ -45,9 +45,9 @@ CHECKVOISINAGEINTEROPFIBRE/
 ├── CHECKVOISINAGEINTEROPFIBRE
 └── CHECKVOISINAGEINTEROPFIBREAPI/
 ```
-It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
+It is a web service achitecture project. Seperated into a BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and a FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
 
-The global vision of the FrontEnd is sort of that:
+FrontEnd treeView :
 
 ```text
 CHECKVOISINAGEINTEROPFIBRE/
@@ -67,7 +67,7 @@ CHECKVOISINAGEINTEROPFIBRE/
     └── main.ts
 ```
 
-On the other hand, you'll find the BackEnd : 
+BackEnd treeview : 
 
 ```text
 ├── CVI.API/
