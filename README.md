@@ -151,7 +151,7 @@ In your visual studio :
 - Set your CVI.API project as startup project
 - run the solution by pressing F5
 - On first lunch, a local database will be created and populated with seed data automatically.
-- -seed data are located in folder data under CVI.API project in seedData.sql file.   
+-- Seed data are located in folder data under CVI.API project in seedData.sql file.   
 - To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
 
 
