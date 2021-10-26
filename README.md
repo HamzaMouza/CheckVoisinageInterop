@@ -88,10 +88,10 @@ On the other hand, you'll find the BackEnd :
 ## Profiles
 In this application there is 3 different profiles:
 
-    Profile/Permissions | Administration | Export | Intervention | Photo | History<br />
-     Administrateur     |       r-w      |  r-w   |     r-w      | r-w   | r<br />
-     Consultation       |       --       |  r     |     r-w      | r-w   | r<br />
-     Hotline            |       --       |  --    |     r-w      | r-w   | r<br />
+    Profile/Permissions | Administration | Export | Intervention | Photo | History
+     Administrateur     |       r-w      |  r-w   |     r-w      | r-w   | r 
+     Consultation       |       --       |  r     |     r-w      | r-w   | r
+     Hotline            |       --       |  --    |     r-w      | r-w   | r
 
 ## Run FrontEnd
 After you recover the project, before the first run start by installing dependencies 
