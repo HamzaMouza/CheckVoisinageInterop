@@ -88,11 +88,6 @@ On the other hand, you'll find the BackEnd :
 ## Profiles
 In this application there is 3 different profiles:
 
-   | Profile/Permissions | Administration | Export | Intervention | Photo | History |
-   | ------|-----|-----|-----|-----|
-   | Administrateur     |       r-w      |    r   |     r-w      | r-w   | r |
-   | Consultation       |       --       |    r   |     r-w      | r-w   | r |
-   |Hotline            |       --       |    -   |     r-w      | r-w   | r  |
 
 | Profile/Permissions        | Administration      | Export | Intervention | Photo | History |
 | ------|-----|-----|-----|-----|-----|
@@ -129,7 +124,7 @@ you can also use our predefined scripts (find them in package.json)
 - the option `--open` is for open the interface in the browser once the project is ready.
 - the option `-skip-plugins` for skipping some hard plugins.
 
-For the build you can use:
+Building your application:
 ```
 npm run build -- --mode testing
 ```
@@ -138,9 +133,13 @@ npm run build -- --mode testing
 
 
 ## Run BackEnd
-Prerequisits:
-Sql Server installed in your host.
-By default the app will use a local SQL Data Base.
+prerequisites:
+- Sql Server installed in your host. By default the app will use a local SQL Data Base.
+- An integrated development environment (IDE) that supports C#
+- .net core framework version 3.1 
+- Entity framework Core version 5.0.2
+
+Run 
 To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
 
 
