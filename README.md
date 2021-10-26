@@ -8,7 +8,7 @@ Since docking to these two services is specific to each operator, it is not inte
 The steps imagined for this application are:
 1. Entering an intervention (requires a PM, and date and time of the start of the intervention)
 2. Query of  audit system as well as the connection status for the given PM
-3. summary of all disconnected clients and all customers having undergone disconnections / reconnections during the intervention
+3. A Summary of all disconnected clients and customers having undergone disconnections / reconnections during the intervention
 
 
 ## Table of contents
