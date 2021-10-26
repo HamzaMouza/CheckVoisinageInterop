@@ -1,8 +1,15 @@
 # Check Voisinage Interop'fibre
 
-Check Voisinage Interop'fibre is an application that offer a set of easy communications between company operators about interventions.
-It is everything you need to create an intervention: SAV, RACCORDEMENT and others.
-This application is designed to look great and to provide powerful functionality in any browser.
+Check Voisinage Interop'fibre is an application aimed at referencing FTTx clients disconnected during the intervention of a technician on a PM
+
+This tool requires an access to a PM repository as well as to a system auditing the connection status of FTTx clients.
+Since docking to these two services is specific to each operator, it is not integrated into this solution.
+
+The steps imagined for this application are:
+1. Entering an intervention (requires a PM, and date and time of the start of the intervention)
+2. Query of  audit system as well as the connection status for the given PM
+3. A Summary of all disconnected clients and customers having undergone disconnections / reconnections during the intervention
+
 
 ## Table of contents
 
@@ -34,13 +41,13 @@ Several quick start options are available:
 Within the download you'll find the following directories and files. You'll see something like this:
 
 ```text
-CHECKVOISINAGEINTEROP/
-├── CHECKVOISINAGEINTEROPFIBRE
-└── CHECKVOISINAGEINTEROPAPI/
+CHECKVOISINAGEINTEROPFIBRE/
+├── CHECKVOISINAGEINTEROPFIBRE/
+└── CHECKVOISINAGEINTEROPFIBREAPI/
 ```
-It is a web service achitecture project. so you find the BackEnd (CHECKVOISINAGEINTEROPAPI) and the FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
+It is a web service achitecture project. Seperated into a BackEnd (CHECKVOISINAGEINTEROPFIBREAPI) and a FrontEnd (CHECKVOISINAGEINTEROPFIBRE)
 
-The globale vision of the FrontEnd is sort of that:
+FrontEnd treeView :
 
 ```text
 CHECKVOISINAGEINTEROPFIBRE/
@@ -60,7 +67,7 @@ CHECKVOISINAGEINTEROPFIBRE/
     └── main.ts
 ```
 
-On the other hand you find the BackEnd like that : 
+BackEnd treeview : 
 
 ```text
 ├── CVI.API/
@@ -87,22 +94,32 @@ On the other hand you find the BackEnd like that :
 
 ## Profiles
 In this application there is 3 different profiles:
--  `Administrateur` : He is the administrator of the app, the mot prowerful profile and he has all permissions and can visualise all interfaces.
--  `Consultation`   : create, and select interventions, view historiers, Export Excel reports.
--  `Hotline` : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
+
+
+| Profile/Permissions        | Administration      | Export | Intervention | Photo | History |
+| ------|-----|-----|-----|-----|-----|
+| Administrateur  	| r-w 	| r 	|r-w      | r-w   | r |
+| Consultation  	| --	| r 	|r-w      | r-w   | r |
+| Hotline  	| -- 	| - 	|r-w      | r-w   | r |
+
 
 ## Run FrontEnd
-After you recover the project, for just one time, you need to install dependencies  
+After you recover the project, start by installing dependencies before lunching your program. 
+In terminal:  
 ```
 npm install
 ```
 
-Here all the envirement is ready you can run the appliacation:
+now that you have installed all the dependencies you can run the application:
+Run by:
+```
+npm run serve
+```
+or 
 ```
 vue-cli-service serve
 ```
-
-Or you can use our predefined scripts (find them in package.json) 
+you can also use our predefined scripts (find them in package.json) 
 ```
 "scripts": {
     "serve": "vue-cli-service serve --open --skip-plugins @vue/cli-plugin-eslint",
@@ -110,29 +127,36 @@ Or you can use our predefined scripts (find them in package.json)
     ...
   }
 ```
-Simply run it by:
-```
-npm run serve
-```
+
 - the option `--open` is for open the interface in the browser once the project is ready.
 - the option `-skip-plugins` for skipping some hard plugins.
 
-For the build you can use:
+Building your application:
 ```
-vue-cli-service build -- --mode testing
+npm run build -- --mode testing
 ```
 
 
 
 
 ## Run BackEnd
-Prerequired thing here is to have Sql Server installed in your host.
-By default the app will use a local SQL Data Base. for change the database connection go to `CVI.API/appsettings.json` and change the `connectionString`.
+prerequisites:
+- Sql Server installed in your host. By default the app will use a local SQL Data Base.
+- An integrated development environment (IDE) that supports C# (visual studio)
+- .net core framework version 3.1 
+- Entity framework Core version 5.0.2
 
-
+Run 
+In your visual studio : 
+- Set your CVI.API project as startup project.
+- Run the solution by pressing F5.
+- On first lunch, a local database will be created and populated with seed data automatically.
+- Seed data are located in folder `Data` under `CVI.API` project in seedData.sql file. 
+- Static notification objects were added in `DataBenchAlarmsNotifications()` method in `InitializeDatabase.cs` file under `CVI.Infrastructure` project.This data simulates the audit system response.       
+- To change database connection go to `CVI.API/appsettings.json` and change the `connectionString` section.
 
 
 ## Copyright and license
 
-Code and documentation copyright 2021 the FitDev Team. Code covred by SonarCube.
+Copyright 2020-2021 FITDev team.
 
