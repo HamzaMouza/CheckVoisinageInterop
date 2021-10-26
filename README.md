@@ -88,10 +88,10 @@ On the other hand, you'll find the BackEnd :
 ## Profiles
 In this application there is 3 different profiles:
 
-    Profile/Permissions | Administration | Export | Intervention | Photo | History
-     Administrateur     |       r-w      |    r   |     r-w      | r-w   | r 
-     Consultation       |       --       |    r   |     r-w      | r-w   | r
-     Hotline            |       --       |    -   |     r-w      | r-w   | r
+   | Profile/Permissions | Administration | Export | Intervention | Photo | History |
+    | Administrateur     |       r-w      |    r   |     r-w      | r-w   | r |
+     | Consultation       |       --       |    r   |     r-w      | r-w   | r|
+     |Hotline            |       --       |    -   |     r-w      | r-w   | r |
 
 ## Run FrontEnd
 After you recover the project, before the first run start by installing dependencies. 
@@ -102,11 +102,11 @@ npm install
 
 now that you have installed all the dependencies you can run the application:
 ```
-run by:
-```
+Run by:
+
 npm run serve
 ```
-
+or 
 
 vue-cli-service serve
 ```
