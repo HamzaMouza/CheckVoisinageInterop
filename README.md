@@ -87,17 +87,20 @@ On the other hand, you'll find the BackEnd :
 
 ## Profiles
 In this application there is 3 different profiles:
--  `Administrateur` : The administrator of the app, the most powerful profil and he has all permissions and can visualise all interfaces.
--  `Consultation`   : create, and select interventions, view historiers, Export Excel reports.
--  `Hotline` : create, and select interventions, view historier, he can't do any administration, also he can't export Excel reports.
+
+    Profile/Permissions | Administration | Export | Intervention | Photo | History
+    
+   `Administrateur`     |       r-w      |  r-w   |     r-w      | r-w   | r
+   `Consultation`       |       --       |  r     |     r-w      | r-w   | r
+   `Hotline`            |       --       |  --    |     r-w      | r-w   | r 
 
 ## Run FrontEnd
-After you recover the project, for just one time, you need to install dependencies  
+After you recover the project, before the first run start by installing dependencies 
 ```
 npm install
 ```
 
-Here all the envirement is ready you can run the appliacation:
+Here all the enviroement is ready you can run the appliacation:
 ```
 vue-cli-service serve
 ```
